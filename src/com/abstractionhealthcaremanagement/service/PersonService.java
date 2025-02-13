@@ -1,4 +1,7 @@
 package com.abstractionhealthcaremanagement.service;
 
-public class PersonService {
+public interface PersonService {
+
+    public void createPerson();
+    public void displayPerson();
 }

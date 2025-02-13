@@ -1,4 +1,8 @@
 package com.abstractionhealthcaremanagement.service;
 
-public class AppointmentService {
+public interface AppointmentService {
+
+    public void createAppointment();
+
+    public void displayAppointment();
 }
