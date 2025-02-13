@@ -12,6 +12,6 @@ public class MedicalTestAppointmentService implements AppointmentService {
 
     @Override
     public void displayAppointment() {
-        
+
     }
 }
