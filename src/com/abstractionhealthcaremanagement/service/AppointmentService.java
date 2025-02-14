@@ -1,8 +1,9 @@
 package com.abstractionhealthcaremanagement.service;
 
+import com.abstractionhealthcaremanagement.model.Appointment;
+
 public interface AppointmentService {
 
-    public void createAppointment();
+    public Appointment createAppointment();
 
-    public void displayAppointment();
 }

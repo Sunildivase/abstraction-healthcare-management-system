@@ -9,6 +9,7 @@ public class Appointment {
     private int doctorId;
     private int hospitalId;
     private int deptId;
+    private String reasonOfAppointment;
 
     @Override
     public String toString() {
@@ -18,7 +19,16 @@ public class Appointment {
                 ", doctorId=" + doctorId +
                 ", hospitalId=" + hospitalId +
                 ", deptId=" + deptId +
+                ", reasonOfAppointment='" + reasonOfAppointment + '\'' +
                 '}';
+    }
+
+    public String getReasonOfAppointment() {
+        return reasonOfAppointment;
+    }
+
+    public void setReasonOfAppointment(String reasonOfAppointment) {
+        this.reasonOfAppointment = reasonOfAppointment;
     }
 
     public int getAppointmentId() {
