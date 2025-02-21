@@ -60,6 +60,9 @@ public class UserService implements PersonService {
 
     @Override
     public void displayPerson() {
-        System.out.println("users "+users);
+//        System.out.println("users "+users);
+        for(String user : users ){
+            System.out.println("users: "+ user);
+        }
     }
 }
